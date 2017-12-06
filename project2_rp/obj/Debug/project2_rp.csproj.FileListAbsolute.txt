@@ -1,0 +1,12 @@
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\project2_rp\bin\Debug\project2_rp.exe.config
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\project2_rp\bin\Debug\project2_rp.exe
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\project2_rp\bin\Debug\project2_rp.pdb
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\project2_rp\obj\Debug\project2_rp.csprojResolveAssemblyReference.cache
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\project2_rp\obj\Debug\project2_rp.Form1.resources
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\project2_rp\obj\Debug\project2_rp.Properties.Resources.resources
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\project2_rp\obj\Debug\project2_rp.csproj.GenerateResource.Cache
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\project2_rp\obj\Debug\project2_rp.csproj.CoreCompileInputs.cache
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\project2_rp\obj\Debug\project2_rp.exe
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\project2_rp\obj\Debug\project2_rp.pdb
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\project2_rp\obj\Debug\project2_rp.Form2.resources
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\project2_rp\obj\Debug\project2_rp.Form3.resources

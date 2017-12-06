@@ -1,0 +1,15 @@
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\WpfRp\bin\Debug\WpfRp.exe.config
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\WpfRp\bin\Debug\WpfRp.exe
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\WpfRp\bin\Debug\WpfRp.pdb
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\WpfRp\obj\Debug\WpfRp.csprojResolveAssemblyReference.cache
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\WpfRp\obj\Debug\MainWindow.g.cs
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\WpfRp\obj\Debug\App.g.cs
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\WpfRp\obj\Debug\WpfRp_MarkupCompile.cache
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\WpfRp\obj\Debug\WpfRp_MarkupCompile.lref
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\WpfRp\obj\Debug\MainWindow.baml
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\WpfRp\obj\Debug\WpfRp.g.resources
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\WpfRp\obj\Debug\WpfRp.Properties.Resources.resources
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\WpfRp\obj\Debug\WpfRp.csproj.GenerateResource.Cache
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\WpfRp\obj\Debug\WpfRp.csproj.CoreCompileInputs.cache
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\WpfRp\obj\Debug\WpfRp.exe
+C:\Users\Akbar\Documents\Kuliah\Semester 5\Rekayasa Pengetahuan\Garapan\project_rp\WpfRp\obj\Debug\WpfRp.pdb

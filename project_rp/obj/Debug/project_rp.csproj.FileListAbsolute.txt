@@ -1,0 +1,11 @@
+C:\Users\hp\source\repos\project_rp\project_rp\bin\Debug\project_rp.exe.config
+C:\Users\hp\source\repos\project_rp\project_rp\bin\Debug\project_rp.exe
+C:\Users\hp\source\repos\project_rp\project_rp\bin\Debug\project_rp.pdb
+C:\Users\hp\source\repos\project_rp\project_rp\obj\Debug\project_rp.csprojResolveAssemblyReference.cache
+C:\Users\hp\source\repos\project_rp\project_rp\obj\Debug\project_rp.Form1.resources
+C:\Users\hp\source\repos\project_rp\project_rp\obj\Debug\project_rp.Properties.Resources.resources
+C:\Users\hp\source\repos\project_rp\project_rp\obj\Debug\project_rp.csproj.GenerateResource.Cache
+C:\Users\hp\source\repos\project_rp\project_rp\obj\Debug\project_rp.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\project_rp\project_rp\obj\Debug\project_rp.exe
+C:\Users\hp\source\repos\project_rp\project_rp\obj\Debug\project_rp.pdb
+C:\Users\hp\source\repos\project_rp\project_rp\obj\Debug\project_rp.Form2.resources
