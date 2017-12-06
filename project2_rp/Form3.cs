@@ -78,23 +78,29 @@ namespace project2_rp
             label16.Text = frm2.namaPasien;
             label17.Text = frm2.usia;
 
+            r = frm1.rendah;
+            s = frm1.sedang;
+            t = frm1.berat;
+
             lbPRingan.Text = frm1.pRingan;
             lbPSedang.Text = frm1.pSedang;
             lbPBerat.Text = frm1.pBerat;
-            
-            if (r < s)
-            {
-                if (s < t)
-                {
-                    label9.Text = "Autis Berat";
-                } else
-                {
-                    label9.Text = "Autis Sedang";
-                }
-            } else
+            Console.WriteLine(r + ", " + s + ", " + t);
+
+            if (r < s && s < t)
             {
                 label9.Text = "Autis Ringan";
+            } else if (r < s && s > t)
+            {
+                label9.Text = "Autis Sedang";
+            } else if (t > s && t > r)
+            {
+                label9.Text = "Autis Berat";
+            } else
+            {
+                label9.Text = "Nilai sama";
             }
+            
         }
     }
 }

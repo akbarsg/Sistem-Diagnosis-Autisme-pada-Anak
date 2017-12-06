@@ -72,7 +72,6 @@ namespace project2_rp
         public Form1()
         {
             InitializeComponent();
-            frm3 = new Form3();
         }
 
         public Form1(Form2 FormBiodata)
