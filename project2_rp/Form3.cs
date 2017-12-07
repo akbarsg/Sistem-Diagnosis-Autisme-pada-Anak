@@ -87,13 +87,13 @@ namespace project2_rp
             lbPBerat.Text = frm1.pBerat;
             Console.WriteLine(r + ", " + s + ", " + t);
 
-            if (r < s && s < t)
+            if (r > s && r > t)
             {
                 label9.Text = "Autis Ringan";
-            } else if (r < s && s > t)
+            } else if (s > r && s > t)
             {
                 label9.Text = "Autis Sedang";
-            } else if (t > s && t > r)
+            } else if (t > r && t > s)
             {
                 label9.Text = "Autis Berat";
             } else
