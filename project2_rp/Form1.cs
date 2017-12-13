@@ -154,7 +154,7 @@ namespace project2_rp
                 pBerat += "P(" + (gejalaNow + 1) + "|x) = (" + ncr + " + 33 * 0.3) / (1 + 33)" + " = " + ((ncb + m * 0.3) / (n + m)) + Environment.NewLine;
 
                 gejalaNow++;
-                lbNomorGejala.Text = "Gejala " + gejalaNow;
+                lbNomorGejala.Text = "Gejala " + (gejalaNow+1);
                 lbGejala.Text = gejala[gejalaNow, 0];
                 if (Int32.Parse(gejala[gejalaNow, 1]) == 1)
                 {
@@ -192,7 +192,7 @@ namespace project2_rp
                 lbJenisSebelum.Text = "Autis Berat";
             }
             gejalaNow++;
-            lbNomorGejala.Text = "Gejala " + gejalaNow;
+            lbNomorGejala.Text = "Gejala " + (gejalaNow+1);
             if (gejalaNow < 33)
             {
                 
@@ -224,9 +224,9 @@ namespace project2_rp
             double p = n / 3;
             int m = 33;
             double rendah2, sedang2, berat2 = 0;
-            rendah = 0.333333333333;
-            sedang = 0.333333333333;
-            berat = 0.333333333333;
+            rendah = 0;
+            sedang = 0;
+            berat = 0;
 
             for (int j = 0; j < 3; j++)
             {
@@ -281,6 +281,9 @@ namespace project2_rp
                 }
                 
             }
+            rendah *= 0.333333333333;
+            sedang *= 0.333333333333;
+            berat *= 0.333333333333;
             Console.WriteLine(rendah);
             Console.WriteLine(sedang);
             Console.WriteLine(berat);
@@ -288,6 +291,11 @@ namespace project2_rp
             frm3.hasil(rendah, sedang, berat);
             frm3.Show();
             this.Hide();
+        }
+
+        private void lbNomorGejala_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

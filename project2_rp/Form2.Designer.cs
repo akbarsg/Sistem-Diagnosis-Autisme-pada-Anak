@@ -44,6 +44,9 @@
             this.label7 = new System.Windows.Forms.Label();
             this.rbLaki = new System.Windows.Forms.RadioButton();
             this.rbPerempuan = new System.Windows.Forms.RadioButton();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.admiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -52,7 +55,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(108, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(214, 17);
+            this.label1.Size = new System.Drawing.Size(205, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Data Diri Orang Tua/Wali Pasien";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -63,7 +66,7 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(22, 63);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(173, 15);
+            this.label2.Size = new System.Drawing.Size(166, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nama Orang Tua/Wali Pasien ";
             // 
@@ -83,7 +86,7 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(22, 114);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 15);
+            this.label4.Size = new System.Drawing.Size(78, 15);
             this.label4.TabIndex = 3;
             this.label4.Text = "Jenis Kelamin";
             // 
@@ -93,7 +96,7 @@
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(22, 140);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 15);
+            this.label5.Size = new System.Drawing.Size(76, 15);
             this.label5.TabIndex = 4;
             this.label5.Text = "Nama Pasien";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -104,7 +107,7 @@
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(22, 166);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(73, 15);
+            this.label6.Size = new System.Drawing.Size(66, 15);
             this.label6.TabIndex = 5;
             this.label6.Text = "Usia Pasien";
             // 
@@ -185,6 +188,23 @@
             this.rbPerempuan.Text = "Perempuan";
             this.rbPerempuan.UseVisualStyleBackColor = true;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.admiToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(418, 24);
+            this.menuStrip1.TabIndex = 17;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // admiToolStripMenuItem
+            // 
+            this.admiToolStripMenuItem.Name = "admiToolStripMenuItem";
+            this.admiToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
+            this.admiToolStripMenuItem.Text = "Admin";
+            this.admiToolStripMenuItem.Click += new System.EventHandler(this.admiToolStripMenuItem_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -206,12 +226,16 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Identitas - Diagnosis Autisme pada Anak";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,5 +258,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.RadioButton rbLaki;
         private System.Windows.Forms.RadioButton rbPerempuan;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem admiToolStripMenuItem;
     }
 }

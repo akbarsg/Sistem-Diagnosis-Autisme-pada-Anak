@@ -56,5 +56,10 @@ namespace project2_rp
             frm1.Show();
             this.Hide();
         }
+
+        private void admiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

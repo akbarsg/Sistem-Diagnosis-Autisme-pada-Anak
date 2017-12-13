@@ -44,8 +44,8 @@ namespace project2_rp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frm2 = new Form2();
-            frm2.Show();
+            frm1 = new Form1(frm2);
+            frm1.Show();
             this.Hide();
         }
 
@@ -68,19 +68,21 @@ namespace project2_rp
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            label5.Text = r.ToString("0.000000000000");
-            label6.Text = s.ToString("0.000000000000");
-            Console.WriteLine(frm1.Sedang);
-            label7.Text = t.ToString("0.000000000000");
+            
             label13.Text = frm2.namaOrtu;
             label14.Text = frm2.alamat;
             label15.Text = frm2.jenisKelamin;
             label16.Text = frm2.namaPasien;
             label17.Text = frm2.usia;
 
-            r = frm1.rendah;
-            s = frm1.sedang;
-            t = frm1.berat;
+            label5.Text = r.ToString("0.0000000000000000");
+            label6.Text = s.ToString("0.0000000000000000");
+            Console.WriteLine(frm1.Sedang);
+            label7.Text = t.ToString("0.0000000000000000");
+
+            r = frm1.rendah* 1000000;
+            s = frm1.sedang * 1000000;
+            t = frm1.berat * 1000000;
 
             lbPRingan.Text = frm1.pRingan;
             lbPSedang.Text = frm1.pSedang;
@@ -100,7 +102,9 @@ namespace project2_rp
             {
                 label9.Text = "Nilai sama";
             }
+
             
+
         }
     }
 }

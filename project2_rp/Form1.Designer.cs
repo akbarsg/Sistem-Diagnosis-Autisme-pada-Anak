@@ -379,6 +379,7 @@
             this.lbNomorGejala.Size = new System.Drawing.Size(46, 13);
             this.lbNomorGejala.TabIndex = 8;
             this.lbNomorGejala.Text = "Gejala 1";
+            this.lbNomorGejala.Click += new System.EventHandler(this.lbNomorGejala_Click);
             // 
             // Form1
             // 
