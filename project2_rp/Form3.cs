@@ -75,10 +75,10 @@ namespace project2_rp
             label16.Text = frm2.namaPasien;
             label17.Text = frm2.usia;
 
-            label5.Text = r.ToString("0.0000000000000000");
-            label6.Text = s.ToString("0.0000000000000000");
+            label5.Text = r.ToString("0.00000000000000000000");
+            label6.Text = s.ToString("0.00000000000000000000");
             Console.WriteLine(frm1.Sedang);
-            label7.Text = t.ToString("0.0000000000000000");
+            label7.Text = t.ToString("0.00000000000000000000");
 
             r = frm1.rendah* 1000000;
             s = frm1.sedang * 1000000;
@@ -89,7 +89,7 @@ namespace project2_rp
             lbPBerat.Text = frm1.pBerat;
             Console.WriteLine(r + ", " + s + ", " + t);
 
-            if (r > s && r > t)
+            /* if (r > s && r > t)
             {
                 label9.Text = "Autis Ringan";
             } else if (s > r && s > t)
@@ -101,9 +101,32 @@ namespace project2_rp
             } else
             {
                 label9.Text = "Nilai sama";
+            } */
+
+            if (t >= s)
+            {
+                if (t >= r)
+                {
+                    label9.Text = "Autis Berat";
+                } else if (t == s)
+                {
+                    label9.Text = "Autis Sedang";
+                } else
+                {
+                    label9.Text = "Autis Ringan";
+                }
+            } else
+            {
+                if (s >= r)
+                {
+                    label9.Text = "Autis Sedang";
+                } else
+                {
+                    label9.Text = "Autis Ringan";
+                }
             }
 
-            
+
 
         }
     }

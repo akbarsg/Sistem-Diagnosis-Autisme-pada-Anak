@@ -162,7 +162,7 @@
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Location = new System.Drawing.Point(164, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(178, 128);
+            this.groupBox1.Size = new System.Drawing.Size(216, 128);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Perhitungan";
@@ -271,7 +271,7 @@
             this.groupBox3.Controls.Add(this.label1);
             this.groupBox3.Location = new System.Drawing.Point(12, 146);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(330, 153);
+            this.groupBox3.Size = new System.Drawing.Size(368, 153);
             this.groupBox3.TabIndex = 13;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Identitas";
@@ -279,7 +279,7 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.lbPRingan);
-            this.groupBox4.Location = new System.Drawing.Point(348, 12);
+            this.groupBox4.Location = new System.Drawing.Point(386, 12);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(283, 287);
             this.groupBox4.TabIndex = 14;
@@ -298,7 +298,7 @@
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.lbPSedang);
-            this.groupBox5.Location = new System.Drawing.Point(637, 12);
+            this.groupBox5.Location = new System.Drawing.Point(675, 12);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(283, 287);
             this.groupBox5.TabIndex = 15;
@@ -317,7 +317,7 @@
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.lbPBerat);
-            this.groupBox6.Location = new System.Drawing.Point(926, 12);
+            this.groupBox6.Location = new System.Drawing.Point(964, 12);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(283, 287);
             this.groupBox6.TabIndex = 15;
@@ -338,7 +338,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1219, 337);
+            this.ClientSize = new System.Drawing.Size(385, 337);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox4);
